@@ -12,22 +12,34 @@
 	<dict>
 		<key>BF7E148A-446C-4D42-8CCC-930E1AEC08AD</key>
 		<string>https://bitbucket.org/charlesignatius/kreyosios.git</string>
+		<key>DD36A42AD2262799C9586271AA6614B0A8A5FECF</key>
+		<string>github.com:BrunoBernardino/KreyosIOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>KreyosIosApp.xcodeproj/project.xcworkspace</string>
+	<string>KreyosIosApp.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>BF7E148A-446C-4D42-8CCC-930E1AEC08AD</key>
+		<string>../..iOS</string>
+		<key>DD36A42AD2262799C9586271AA6614B0A8A5FECF</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://bitbucket.org/charlesignatius/kreyosios.git</string>
+	<string>github.com:BrunoBernardino/KreyosIOS.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>BF7E148A-446C-4D42-8CCC-930E1AEC08AD</string>
+	<string>DD36A42AD2262799C9586271AA6614B0A8A5FECF</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DD36A42AD2262799C9586271AA6614B0A8A5FECF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Kreyos</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

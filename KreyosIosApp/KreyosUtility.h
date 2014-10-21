@@ -18,7 +18,7 @@
 #define BUILD_LOCAL                     0
 #define BUILD_WEB                       1
 #define BUILD_RELEASE                   2
-#define IOS_BUILD                       BUILD_RELEASE
+#define IOS_BUILD                       BUILD_LOCAL
 
 
 //~~~DEBUG SWITCHES GUIDE :)
@@ -27,7 +27,7 @@
 
 #if IOS_BUILD == BUILD_LOCAL || IOS_BUILD == BUILD_WEB
 //#define EMULATOR_BUILD                //~~~PREVENT CRASHING OF CENTRAL MANAGER IN EMULATOR MODE ((╯°□°)╯︵ ┻━┻)
-//#define STORY_IPHONE_5S               //~~~ENABLE STORYBOARD IN 5S ((╯°□°)╯︵ ┻━┻)
+#define STORY_IPHONE_5S               //~~~ENABLE STORYBOARD IN 5S ((╯°□°)╯︵ ┻━┻)
 //#define STORY_IPHONE_4S               //~~~ENABLE STORYBOARD IN 4S ((╯°□°)╯︵ ┻━┻)
 //#define ENABLE_SHOW_TUTORIAL          //~~~ALWAYS SHOW TUTORIAL    ((╯°□°)╯︵ ┻━┻)
 #define OFFLINE_BUILD                   //~~~LOAD OFFLINE STORY BOARD ( ¯\_(ツ)_/¯ )
@@ -40,13 +40,13 @@
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #if IOS_BUILD == BUILD_LOCAL
 
-#define kSERVER_URL                     @"http://192.168.1.116:3000/api/"
+#define kSERVER_URL                     @"http://localhost:3000/api/"
 
 //~~~DEBUG
 //#define DEBUG_WEIRD_DATE
 //#define ENABLE_WEB_DATA_PRINT
 //#define ENABLE_DB_PRINT
-//#define BYPASS_LOGIN
+#define BYPASS_LOGIN
 //#define WATCH_DATA
 //#define DEBUG_HOME_DATA
 
@@ -70,6 +70,8 @@
 
 #define kSERVER_URL                     @"https://members.kreyos.com/api/"
 
+#else
+#define kSERVER_URL                     @"http://localhost:3000/api/"
 #endif
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
